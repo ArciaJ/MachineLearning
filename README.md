@@ -1,3 +1,3 @@
 MachineLearning
 ===============
-all practice about machine learning
+all practices about machine learning
