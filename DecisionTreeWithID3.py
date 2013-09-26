@@ -86,6 +86,7 @@ def predict(tree,newObject):
 if __name__ == '__main__':
 	dataset,features = createDataSet()
 	tree = treeGrowth(dataset,features)
+	print tree
 	print predict(tree,{'no surfacing':1,'flippers':1})
 	print predict(tree,{'no surfacing':1,'flippers':0})
 	print predict(tree,{'no surfacing':0,'flippers':1})
